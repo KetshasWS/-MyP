@@ -10984,9 +10984,13 @@ header.masthead .masthead-heading {
 }
 
 @media (min-width: 576px) {
-   header.masthead {
+   header.masthead .masthead-subheading {
     font-size: 1.2rem;
-    margin-top: 10.5rem;
+    margin-top: -0.5rem;
+   }
+
+   #mainNav .navbar-toggler {
+    padding: 0.25rem;
    }
 }
 
